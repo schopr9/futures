@@ -5,8 +5,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
+    "start": "yarn && react-native run-ios",
+    "test": "jest --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "update:pods": "npx pod-install ios",
     "postinstall": "yarn run update:pods"
@@ -16,8 +16,13 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.7.3",
     "@react-navigation/stack": "^5.9.0",
+    "@testing-library/react-native": "^7.1.0",
     "axios": "^0.21.1",
+    "collections": "^5.1.12",
+    "fast-binary-indexed-tree": "^1.0.1",
+    "loadash": "^1.0.0",
     "react": "16.13.1",
+    "react-dom": "^17.0.1",
     "react-native": "0.63.2",
     "react-native-gesture-handler": "^1.7.0",
     "react-native-paper": "^4.1.0",
@@ -46,7 +51,7 @@
     "@typescript-eslint/parser": "^2.27.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
-    "jest": "^25.1.0",
+    "jest": "^24.0.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.0.4",
     "react-test-renderer": "16.13.1",
@@ -54,6 +59,15 @@
   },
   "jest": {
     "preset": "react-native",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts,tsx}",
+      "!index.js",
+      "!babel.config.js",
+      "!jest.setup.js",
+      "!metro.config.js",
+      "!**/coverage/**",
+      "!**app/config/*"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -61,6 +75,15 @@
       "jsx",
       "json",
       "node"
+    ],
+    "setupFiles": [
+      "./testenv.js"
+    ],
+    "setupFilesAfterEnv": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
     ]
   }
 }

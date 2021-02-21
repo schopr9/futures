@@ -31,7 +31,7 @@ export function connectionSuccess(message: string) {
   };
 }
 
-export function incomingEvent(payload: IOrderResponse) {
+export function incomingEvent(payload: string) {
   return {
     type: types.ORDERBOOK_RESPONSE,
     payload,

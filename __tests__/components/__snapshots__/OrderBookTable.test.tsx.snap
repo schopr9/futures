@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order book table mounts Maintenance route if maintenance mode is enabled 1`] = `[Function]`;

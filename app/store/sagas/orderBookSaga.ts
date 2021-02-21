@@ -11,11 +11,13 @@ function createWebSocketConnection() {
 
     socket.onopen = function () {
       resolve(socket);
-      socket.send(JSON.stringify({
-        event: 'subscribe',
-        feed: 'book_ui_1',
-        product_ids: ['PI_XBTUSD']
-      }))
+      socket.send(
+        JSON.stringify({
+          event: 'subscribe',
+          feed: 'book_ui_1',
+          product_ids: ['PI_XBTUSD'],
+        }),
+      );
     };
 
     socket.onerror = function (evt) {
@@ -58,7 +60,9 @@ function* listenForSocketMessages() {
       // wait for a message from the channel
       const payload = yield take(socketChannel);
 
-      // a message has been received, dispatch an action with the message payload
+      // need to throttle this action to improve the performance of redux
+      // probably we can collect 10 payloads and then push it to redux
+      // to reduce the redux load and re-render
       yield put(websocketActions.incomingEvent(payload));
     }
   } catch (error) {
@@ -75,9 +79,7 @@ function* listenForSocketMessages() {
       // close the WebSocket connection
       socket.close();
     } else {
-      yield put(
-        websocketActions.connectionFailed('WebSocket disconnected'),
-      );
+      yield put(websocketActions.connectionFailed('WebSocket disconnected'));
     }
   }
 }

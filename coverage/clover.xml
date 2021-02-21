@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1613942612008" clover="3.2.0">
+  <project timestamp="1613942612008" name="All files">
+    <metrics statements="158" coveredstatements="46" conditionals="27" coveredconditionals="7" methods="59" coveredmethods="17" elements="244" coveredelements="70" complexity="0" loc="158" ncloc="158" packages="13" files="31" classes="31"/>
+    <package name="app">
+      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="Entrypoint.tsx" path="/Users/saurabhchopra/personal/futures/app/Entrypoint.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="4"/>
+      <file name="OrderBookTable.tsx" path="/Users/saurabhchopra/personal/futures/app/components/OrderBookTable.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="3"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="ThemeController.tsx" path="/Users/saurabhchopra/personal/futures/app/components/ThemeController.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.lib">
+      <metrics statements="4" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="createReducer.ts" path="/Users/saurabhchopra/personal/futures/app/lib/createReducer.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.models.actions">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="connection.ts" path="/Users/saurabhchopra/personal/futures/app/models/actions/connection.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="theme.ts" path="/Users/saurabhchopra/personal/futures/app/models/actions/theme.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="app.models.api">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="order.ts" path="/Users/saurabhchopra/personal/futures/app/models/api/order.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="app.models.reducers">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="connection.ts" path="/Users/saurabhchopra/personal/futures/app/models/reducers/connection.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="loading.ts" path="/Users/saurabhchopra/personal/futures/app/models/reducers/loading.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="orderBook.ts" path="/Users/saurabhchopra/personal/futures/app/models/reducers/orderBook.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="theme.ts" path="/Users/saurabhchopra/personal/futures/app/models/reducers/theme.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="app.navigation">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+      <file name="NavigationService.tsx" path="/Users/saurabhchopra/personal/futures/app/navigation/NavigationService.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="NavigationStack.tsx" path="/Users/saurabhchopra/personal/futures/app/navigation/NavigationStack.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/saurabhchopra/personal/futures/app/navigation/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="app.screens.Home">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/saurabhchopra/personal/futures/app/screens/Home/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/saurabhchopra/personal/futures/app/screens/Home/styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.store">
+      <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/saurabhchopra/personal/futures/app/store/index.ts">
+        <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.store.actions">
+      <metrics statements="24" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="10"/>
+      <file name="index.ts" path="/Users/saurabhchopra/personal/futures/app/store/actions/index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="navigationActions.ts" path="/Users/saurabhchopra/personal/futures/app/store/actions/navigationActions.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="themeActions.ts" path="/Users/saurabhchopra/personal/futures/app/store/actions/themeActions.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/saurabhchopra/personal/futures/app/store/actions/types.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+      </file>
+      <file name="websocketActions.ts" path="/Users/saurabhchopra/personal/futures/app/store/actions/websocketActions.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.store.reducers">
+      <metrics statements="18" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="connectionReducer.ts" path="/Users/saurabhchopra/personal/futures/app/store/reducers/connectionReducer.ts">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/saurabhchopra/personal/futures/app/store/reducers/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="loadingReducer.ts" path="/Users/saurabhchopra/personal/futures/app/store/reducers/loadingReducer.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="orderBookReducer.ts" path="/Users/saurabhchopra/personal/futures/app/store/reducers/orderBookReducer.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="themeReducer.ts" path="/Users/saurabhchopra/personal/futures/app/store/reducers/themeReducer.ts">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.store.sagas">
+      <metrics statements="33" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/saurabhchopra/personal/futures/app/store/sagas/index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="orderBookSaga.ts" path="/Users/saurabhchopra/personal/futures/app/store/sagas/orderBookSaga.ts">
+        <metrics statements="32" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.utils">
+      <metrics statements="26" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="extractData.ts" path="/Users/saurabhchopra/personal/futures/app/utils/extractData.ts">
+        <metrics statements="22" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="stringUtils.ts" path="/Users/saurabhchopra/personal/futures/app/utils/stringUtils.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
